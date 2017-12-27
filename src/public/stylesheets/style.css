@@ -1,0 +1,99 @@
+h1.heading {
+    color: rgb(128, 128, 128);
+    text-align: center;
+    font-size: 36px;
+    padding: 0;
+    font-family: arial;
+    font-weight: 50;
+}
+
+label {
+    font-family: arial;
+    font-size: 24px;
+    font-weight: 50;
+    color: rgb(60, 60, 60);
+}
+
+.text {
+    font-family: arial;
+    font-size: 36px;
+    font-weight: 50;
+    color: white;
+}
+
+div.start {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+div.game {
+    display: none;
+}
+
+div.player {
+    width:100%;
+    height: 300px;
+    background-color:blue;
+    text-align:center;
+}
+
+div.computer {
+    text-align:center;
+    width:100%;
+    height: 300px;
+    background-color:red;
+}
+
+div.card {
+    float: left;
+    display: relative;
+    height: 100px;
+    width: 70px;
+    font-size: 36px;
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 80px;
+    font-family: Impact, Charcoal, sans-serif;
+    border-radius: 8px;
+}
+
+.button{
+    align-content: center;
+}
+
+.visible {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: grey;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: white;
+    transition-duration: 500ms;
+    color: grey;
+}
