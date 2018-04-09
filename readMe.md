@@ -1,4 +1,4 @@
-Sean Cao
+Sean Cao  - [Link to Deployed Application](http://i6.cims.nyu.edu/~ssc543/blackjack/)
 
 One hand of Blackjack using client-side Javascript and DOM manipulation.
 
